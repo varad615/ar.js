@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    
+<a-scene>
+   <a-assets>
+    <img id="boxTexture" src="https://i.imgur.com/FNFWU5b.jpeg">
+  </a-assets>
+  
+  <a-sphere  src="#boxTexture" position="-4 2 -5" rotation="0 45 45" scale="2 2 2">
+ <a-animation attribute="position" to="-4 2.2 -5" direction="alternate" dur="2000"
+      repeat="indefinite"></a-animation></a-sphere>
+  <a-sky color="black" ></a-sky>
+   <a-camera>
+    <a-cursor></a-cursor>
+  </a-camera>
+<a-text value="Sun" color="white"
+        position="-0.2 1.5 -3" scale="1.5 1.5 1.5"></a-text> 
+		<a-text value="The sun lies at the heart of the solar system,
+		where it is by far the largest object.
+		It holds 99.8 percent of the solar system's 
+		mass and is roughly 109 times the diameter of the Earth 
+		— about one million Earths could fit inside the sun." color="white"
+        position="-0.1 0.25 -3" scale="1 1 1"></a-text>
+<a-text value="App by : Varad Gundap" color="white"
+        position="-0.2 5.0 -3" scale="1.5 1.5 1.5"></a-text> 
+ </a-scene
+
+  <body>
+</html>
